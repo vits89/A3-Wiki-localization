@@ -1,5 +1,5 @@
-# CONFIG
-Значения данного типа представляют собой запись в файле конфигураций (config.cpp):
+# CONFIG (CFG)
+CONFIG или КОНФИГ - это тип данных, который хранит ссылку на запись в файле конфигурация (config.cpp или description.ext):
 ```
-myVariable = configFile >> "CfgVehicles" >> "B_soldier_F";
+myCfg = configFile >> "CfgVehicles" >> "B_soldier_F";
 ```
