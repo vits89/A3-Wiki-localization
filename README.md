@@ -4,5 +4,5 @@ This project was created with the purpose of translating official Bohemia Intera
 At the moment there is a translation into Russian language.
 
 ## Thanks for
-* @vlad333000
-* @vits89
+* Vlad333000 ([GitHub](https://github.com/vlad333000))
+* Schatten ([GitHub](@vits89))
