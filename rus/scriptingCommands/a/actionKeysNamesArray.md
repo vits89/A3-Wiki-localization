@@ -1,4 +1,4 @@
-# actionKeysNames
+# actionKeysNamesArray
 
 Игра: ArmA v1.0
 
@@ -9,7 +9,7 @@
 ## Синтаксис 1
 
 ```SQF
-actionKeysNames <действие>
+actionKeysNamesArray <действие>
 ```
 
 Аргументы:
@@ -17,12 +17,12 @@ actionKeysNames <действие>
 * <действие> - STRING имя действия
 
 Результат:
-STRING - список названий клавиш
+ARRAY из STRING - список названий клавиш
 
 ## Синтаксис 2
 
 ```SQF
-actionKeysNames [<действие>, <макс. количество>]
+actionKeysNamesArray [<действие>, <макс. количество>]
 ```
 
 Аргументы:
@@ -31,12 +31,12 @@ actionKeysNames [<действие>, <макс. количество>]
 * <макс. количество> NUMBER - максимальное количество названий клавиш в результате
 
 Результат:
-STRING - список названий клавиш
+ARRAY из STRING - список названий клавиш
 
 ## Синтаксис 3 (ArmA 3 v1.35.127928)
 
 ```SQF
-actionKeysNames [<действие>, <макс. количество>, <приоритет устройств>]
+actionKeysNamesArray [<действие>, <макс. количество>, <приоритет устройств>]
 ```
 
 Аргументы:
@@ -54,16 +54,16 @@ actionKeysNames [<действие>, <макс. количество>, <прио
   * "Unsorted" - не сортированный список
 
 Результат:
-STRING - список названий клавиш
+ARRAY из STRING - список названий клавиш
 
 ## Пример(ы)
 
 ```SQF
-actionKeysNames "MoveForward";      //"""W"" или ""ВВЕРХ"""
+actionKeysNamesArray "MoveForward";       //["W","ВВЕРХ"]
 ```
 
 ```SQF
-actionKeysNames ["MoveForward", 1]; //"""W"""
+actionKeysNamesArray ["MoveForward", 1];  //["W"]
 ```
 
 ## Дополнительная информация
